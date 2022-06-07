@@ -1,0 +1,34 @@
+   <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Weather App</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<h1 id="title">MinWeather.</h1>
+		<div id="container">
+			<div id="background">
+				<div class="weather" id="display">
+          <div>
+					<div id="locationHolder"><img id="icon" src="" /><span id="location"></span></div>
+					</div>
+          <div id="temp"></div>
+					<div id="description"></div>
+					<div id="extra"><span class="extraItems" id="humidity"></span><span class="extraItems" id="speed"></span></div>
+				</div>
+				<div class="weather" id="search">
+					<br />
+					<input id="city" placeholder="+" />
+					<h3 id="newLocation">Add New Location</h3>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="config.js"></script>
+		<script src="elems.js"></script>
+		<script src="script.js"></script>
+		<script src="modules.js" type="module"></script>
+	</body>
+</html>
